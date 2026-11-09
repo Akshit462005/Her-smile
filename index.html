@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff8f4">
+<title>For the Girl Who Makes Everything Brighter ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#34272b;--muted:#806e70;--rose:#c97883;--dark:#a95768;--cream:#fff8f4;--blush:#f7e5e2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}
+.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:100px 7%;color:white;background:linear-gradient(#21191b55,#21191b99),url("photo-2.jpeg") center 38%/cover;position:relative}
+.hero:after{content:"";position:absolute;bottom:0;left:0;right:0;height:130px;background:linear-gradient(transparent,var(--cream))}
+.hero-in{position:relative;z-index:1;max-width:760px;animation:up 1s ease both}.eyebrow,.kicker{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--dark);font-weight:700}.hero .eyebrow{color:#ffe5dd}
+h1,h2,h3,blockquote{font-family:"Playfair Display",serif;font-weight:500}h1{font-size:clamp(48px,8vw,96px);line-height:1.04;margin:22px 0}h1 em{color:#f4c9c7}
+.hero p{max-width:590px;margin:auto;color:#fff0eb;line-height:1.9;font-size:16px}.scroll{display:inline-block;margin-top:35px;color:white;text-decoration:none;font-size:10px;letter-spacing:3px;text-transform:uppercase;border-bottom:1px solid #ffffff90;padding-bottom:9px}
+section{padding:90px 7%}.center{text-align:center}h2{font-size:clamp(36px,5vw,58px);line-height:1.12;margin:14px 0 18px}.intro{max-width:660px;margin:auto;color:var(--muted);font-size:15px;line-height:1.9}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:48px auto 0}.card{background:white;border:1px solid #f0dfda;border-radius:20px;padding:28px;box-shadow:0 15px 40px #6d3d3510;transition:.3s}.card:hover{transform:translateY(-6px)}.symbol{font-size:26px;color:var(--rose)}.card h3{font-size:24px;margin:15px 0 8px}.card p{color:var(--muted);font-size:13px;line-height:1.8;margin:0}
+.gallery-section{background:var(--blush);padding-left:0;padding-right:0}.gallery{max-width:1150px;padding:0 7%;margin:45px auto 0;display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.photo{grid-column:span 6;overflow:hidden;border-radius:16px;background:#ead4d0}.photo:nth-child(1),.photo:nth-child(4),.photo:nth-child(7){grid-column:span 5}.photo:nth-child(2),.photo:nth-child(3),.photo:nth-child(5),.photo:nth-child(6){grid-column:span 7}.photo img{width:100%;height:100%;min-height:280px;object-fit:cover;display:block;cursor:zoom-in;transition:transform .6s}.photo:hover img{transform:scale(1.05)}
+.quote{text-align:center;padding:100px 7%}.quote-mark{font:90px "Playfair Display";color:#e7c5bd;line-height:.5}blockquote{font-size:clamp(28px,4.5vw,48px);line-height:1.35;max-width:850px;margin:28px auto;color:#5b4146}.quote small{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--dark)}
+.letter{max-width:850px;margin:auto;background:white;border:1px solid #f0dfda;border-radius:24px;padding:clamp(28px,6vw,60px);box-shadow:0 20px 60px #6d3d3510}.letter p{font:clamp(17px,2vw,21px)/1.9 "Playfair Display",serif;color:#675458}.letter .sign{font-style:italic;color:var(--dark);font-size:25px}
+.final{text-align:center;background:#382c31;color:#fff4ef;padding:100px 7%}.final h2{font-size:clamp(40px,6vw,68px)}.final p{color:#e4cfd0;line-height:1.9;max-width:560px;margin:auto}.btn{margin-top:28px;border:1px solid #d9a7a8;background:transparent;color:#fff4ef;border-radius:40px;padding:14px 24px;font:inherit;cursor:pointer}.btn:hover{background:#d9a7a8;color:#382c31}footer{text-align:center;background:#382c31;color:#bda7a9;padding:0 20px 28px;font-size:10px;letter-spacing:2px}
+.lightbox{display:none;position:fixed;inset:0;background:#160f13ed;z-index:10;align-items:center;justify-content:center;padding:20px}.lightbox.open{display:flex}.lightbox img{max-width:94vw;max-height:88vh;object-fit:contain;border-radius:12px}.close{position:absolute;right:22px;top:12px;color:white;background:none;border:0;font-size:38px;cursor:pointer}
+.spark{position:fixed;z-index:12;pointer-events:none;animation:float 1.5s forwards}@keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}@keyframes float{to{transform:translateY(-120px) rotate(25deg);opacity:0}}
+@media(max-width:700px){section{padding:72px 6%}.cards{grid-template-columns:1fr;gap:12px;margin-top:32px}.card{padding:24px}.gallery{padding:0 5%;gap:9px}.photo img{min-height:220px}.photo:nth-child(1),.photo:nth-child(4),.photo:nth-child(7){grid-column:span 12}.photo:nth-child(2),.photo:nth-child(3),.photo:nth-child(5),.photo:nth-child(6){grid-column:span 6}.hero{background-position:52% center}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="hero-in"><div class="eyebrow">a little something, made with love</div><h1>Some people<br>make life <em>prettier.</em></h1><p>And then there's you — with that smile, that beautiful heart, and a way of making ordinary moments feel like memories worth keeping.</p><a class="scroll" href="#words">a few words for you ↓</a></div></header>
+<main>
+<section class="center" id="words"><div class="kicker">more than just a pretty smile</div><h2>The beautiful things<br>that make you, you.</h2><p class="intro">Beauty catches the eye, but it's your nature that stays with people. The warmth you bring, the laughter, your little expressions, and the way you make everyone feel at ease — those are the things that make you truly special.</p>
+<div class="cards">
+<article class="card"><div class="symbol">✿</div><h3>Your kind heart</h3><p>There's a softness in the way you care. It's the kind of goodness people remember long after a moment has passed.</p></article>
+<article class="card"><div class="symbol">☼</div><h3>Your lovely energy</h3><p>You bring your own sunshine. Even a simple evening feels brighter when you're around.</p></article>
+<article class="card"><div class="symbol">♡</div><h3>Your one-of-a-kind self</h3><p>Your quirks, expressions, and laughter — never change the things that make you wonderfully you.</p></article>
+</div></section>
+<section class="gallery-section" id="memories"><div class="center"><div class="kicker">little moments, lovely memories</div><h2>A few frames of happiness.</h2><p class="intro">Not every picture needs to be perfect. Sometimes the best ones are simply the ones that feel like you.</p></div>
+<div class="gallery">
+<div class="photo"><img src="photo-1.jpeg" alt="A happy evening together" loading="lazy"></div><div class="photo"><img src="photo-2.jpeg" alt="A lovely night-time memory" loading="lazy"></div><div class="photo"><img src="photo-3.jpeg" alt="A joyful moment together" loading="lazy"></div><div class="photo"><img src="photo-4.jpeg" alt="A beautiful smile" loading="lazy"></div><div class="photo"><img src="photo-5.jpeg" alt="A sweet memory" loading="lazy"></div><div class="photo"><img src="photo-6.jpeg" alt="A candid moment" loading="lazy"></div><div class="photo"><img src="photo-7.jpeg" alt="One more memory to keep" loading="lazy"></div>
+</div></section>
+<section class="quote"><div class="quote-mark">“</div><blockquote>Some smiles don't just light up a face — they make the whole moment feel warmer.</blockquote><small>and yours does exactly that</small></section>
+<section><div class="letter"><div class="kicker">a little note for you</div><h2>Never forget how lovely you are.</h2><p>There is something genuinely beautiful about the way you are. It's in your smile, of course, but it's also in your nature — in the warmth you share, the joy you bring, and the little things you probably don't even realise people notice.</p><p>I hope you always see yourself with the same kindness that you show the world. Keep laughing, being wonderfully yourself, and collecting moments that make your heart happy. The world is a nicer place with your kind of light in it.</p><p class="sign">Keep being you. That's your magic. ♡</p></div></section>
+</main>
+<section class="final"><div class="kicker" style="color:#e9b8b9">one last thing</div><h2>Stay as wonderful<br>as you are. ♡</h2><p>For your smile, your spirit, your kindness, and all the little things that make you unforgettable.</p><button class="btn" id="heartBtn">send a little love ✨</button></section>
+<footer>MADE WITH CARE · JUST FOR YOU ♡</footer>
+<div class="lightbox" id="lightbox"><button class="close" id="close" aria-label="Close">×</button><img id="large" alt="Expanded memory"></div>
+<script>
+const box=document.getElementById('lightbox'),large=document.getElementById('large');
+document.querySelectorAll('.photo img').forEach(img=>img.addEventListener('click',()=>{large.src=img.src;box.classList.add('open')}));
+function closeBox(){box.classList.remove('open');large.src=''}
+document.getElementById('close').addEventListener('click',closeBox);box.addEventListener('click',e=>{if(e.target===box)closeBox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBox()});
+document.getElementById('heartBtn').addEventListener('click',e=>{const r=e.currentTarget.getBoundingClientRect();for(let i=0;i<20;i++){const s=document.createElement('span');s.className='spark';s.textContent=['♡','✦','♥','✿'][i%4];s.style.left=(r.left+r.width/2+(Math.random()-.5)*190)+'px';s.style.top=(r.top+(Math.random()-.5)*25)+'px';s.style.color=['#f5b8c0','#f4d7a4','#fff'][i%3];s.style.fontSize=(14+Math.random()*14)+'px';document.body.appendChild(s);setTimeout(()=>s.remove(),1600)}});
+</script>
+</body></html>
